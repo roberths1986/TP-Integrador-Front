@@ -32,6 +32,7 @@
 .carousel-item img { 
   filter: brightness(45%);
   max-height: 100vh;
+  margin-top: 5.4rem;
 }
 
 .carousel-caption {
@@ -78,3 +79,4 @@ p span {
   color: white;
   text-align: center;
 }
+
