@@ -36,9 +36,25 @@
 }
 
 .carousel-caption {
-  left: 45%;
+  margin-left: 35%;
+  margin-bottom: 10%;
   text-align: end;
+  background-color: red;
 }
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    background-color: blue;
+    text-align: center;
+    margin-left: auto;
+  }
+
+  .carousel-item img {
+    height: 100vh;
+    margin: auto;
+  }
+}
+
 
 /* SECCION MITAD IMG, MITAD TEXTO
 -------------------------------------------------- */
