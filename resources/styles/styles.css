@@ -1,0 +1,80 @@
+* {
+  max-width: 100%;
+}
+
+/* HEADER
+------------------------- */
+.navbar, .fechaLugar {
+  background-color: rgb(51, 50, 50);
+}
+
+/* LOS HOVER
+-------------------------------------------------- */
+
+.navbar-nav .nav-link:hover  {
+  color: rgb(162, 190, 190) !important;
+}
+
+.navbar-nav .compraTickets:hover  {
+  color: white !important;
+  background-color: green;
+  border-radius: 8%;
+}
+
+
+#menu-footer .nav-link:hover { 
+  color: rgb(143, 139, 135); 
+}
+
+  /* CAROUSEL
+-------------------------------------------------- */
+
+.carousel-item img { 
+  filter: brightness(45%);
+  max-height: 100vh;
+}
+
+.carousel-caption {
+  left: 45%;
+  text-align: end;
+}
+
+/* SECCION MITAD IMG, MITAD TEXTO
+-------------------------------------------------- */
+.titulo-gral {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.titulo-gral span {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+  /* CARDS
+-------------------------------------------------- */
+.card {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+  /* FORM COMPRAR TICKETS
+-------------------------------------------------- */
+
+p span {
+  text-decoration:underline dotted;
+}
+
+  /* FOOTER
+-------------------------------------------------- */
+
+#menu-footer {
+  background-color: rgb(42, 56, 88);
+  padding: 1rem;
+}
+
+#menu-footer .nav-link {
+  color: white;
+  text-align: center;
+}
