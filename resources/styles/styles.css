@@ -30,7 +30,7 @@
 -------------------------------------------------- */
 
 .carousel-item img { 
-  filter: brightness(45%);
+  filter: brightness(40%);
   max-height: 100vh;
   margin-top: 5.4rem;
 }
@@ -39,12 +39,10 @@
   margin-left: 35%;
   margin-bottom: 10%;
   text-align: end;
-  background-color: red;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .carousel-caption {
-    background-color: blue;
     text-align: center;
     margin-left: auto;
   }
