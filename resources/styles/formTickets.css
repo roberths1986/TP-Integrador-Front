@@ -1,0 +1,57 @@
+* {
+    max-width: 100%;
+  }
+  
+  /* HEADER
+------------------------- */
+  .navbar, .fechaLugar {
+    background-color: rgb(51, 50, 50);
+  }
+  
+  /* LOS HOVER
+  -------------------------------------------------- */
+  
+  .navbar-nav .nav-link:hover  {
+    color: rgb(162, 190, 190) !important;
+  }
+  
+  .navbar-nav .compraTickets:hover  {
+    color: white !important;
+    background-color: green;
+    border-radius: 8%;
+  }
+  
+  
+  #menu-footer .nav-link:hover { 
+    color: rgb(143, 139, 135); 
+  }
+
+    /* CARDS
+-------------------------------------------------- */
+
+.cards {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+
+
+    /* FORM
+-------------------------------------------------- */
+
+
+
+
+    /* FOOTER
+-------------------------------------------------- */
+
+#menu-footer {
+    background-color: rgb(42, 56, 88);
+    padding: 1rem;
+  }
+  
+  #menu-footer .nav-link {
+    color: white;
+    text-align: center;
+  }
+  
