@@ -39,7 +39,11 @@
     /* FORM
 -------------------------------------------------- */
 
-
+#totalPago {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(23, 23, 171);
+}
 
 
     /* FOOTER
